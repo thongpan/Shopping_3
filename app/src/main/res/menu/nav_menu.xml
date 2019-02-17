@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_photo"
+
+
+        android:icon="@drawable/tools"
+        android:title="@string/action_settings" />
+    <item
+        android:title="dfg"/>
+    <item
+        android:title="vbn"/>
+    <item
+        android:title="hjk"/>
+    <item
+        android:title="qwe"/>
+    <item
+        android:title="iop"/>
+    <item
+        android:title="cvb"/>
+    <item
+        android:title="tyu"/>
+    <item
+        android:title="hjk"/>
+    <item
+        android:title="zxc"/>
+
+
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="FrameLayout">#ff8c00</color>
+    <color name="bu">#ffffff</color>
+    <color name="bu2">#ffffff</color>
+    <color name="bu1">#ffffff</color>
+    <color name="linearlaout">#ffffff</color>
+    <color name="image">#FF78F1</color>
+    <color name="color">#000000</color>
+    <color name="sw">#ff0000</color>
+    <color name="EditText">#FFc0cb</color>
+</resources>

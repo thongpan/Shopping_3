@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AddlistProductActivity"
+    tools:showIn="@layout/activity_addlist_product">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone"/>
+
+        <Button android:id="@+id/button_image" android:text="เลือกภาพ"/>
+
+        <TextView android:text="ชื่อสินค้า"
+            android:textSize="16dp"
+            android:layout_marginLeft="5dp"/>
+        <EditText
+            android:id="@+id/edit_name"
+            android:padding="3dp"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:background="#0fffff"
+            android:lines="1"
+            android:gravity="top"/>
+
+        <TextView android:text="ราคา"
+            android:textSize="16dp"
+            android:layout_marginLeft="5dp"/>
+        <EditText
+            android:id="@+id/edit_price"
+            android:padding="3dp"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:background="#0fffff"
+            android:lines="1"
+            android:gravity="top"/>
+
+        <TextView android:text="ลักษณะสินค้า"
+            android:textSize="16dp"
+            android:layout_marginLeft="5dp"/>
+        <EditText
+        android:id="@+id/edit_charegtic"
+        android:padding="3dp"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:background="#0fffff"
+        android:lines="1"
+        android:gravity="top"/>
+
+        <Button android:id="@+id/button_save" android:text="บันทึกข้อมูล"/>
+
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>
